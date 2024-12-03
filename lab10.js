@@ -30,30 +30,17 @@ function Additon(){
 
 //Question 4
 function newtitle(){
-    document.getElementById(`title`).value;
-    document.getElementById(`title`);
-
-    if()
-
-
+    document.getElementById(`title`).innerHTML=document.getElementById(`titleenter`).value;
 
 }
-
-
-
-
-
+document.getElementById(`resultbuttom`).addEventListener(`click`,newtitle);
 
 //Question 5
-function AddNumbers(){
-    document.getElementById(`number`).innerText.value;
-    let a;
-    let b;
-     
-    document.getElementById('heading-two').innerText = (a + b);
-    document.getElementById('para1').innerHTML = "<h1>New Heading one</h1>"
+function Concatenate(){
+    document.getElementById(`combinedText`).innerHTML= document.getElementById(`st1`).value+ document.getElementById(`st2`).value;
+
 }
-
 //Question 6
-
+let button = document.getElementById('changeColorButton');
+let colorBox = document.getElementById('colorBox');
 

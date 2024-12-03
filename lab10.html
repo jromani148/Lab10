@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+    #div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid black;
+  }
+
+</style>
 </head>
 <body>
 
@@ -22,13 +31,29 @@
     <input id="1" type="number" placeholder="Enter number">
     <input  id="2"type="number" placeholder="Enter number">
     <button onclick="Additon()">Add them</button>
-    <div id=" result"></div>
+    <div id=" result">Result</div>
 
     <hr><hr>
 
     <h1 id="title">TEXT 4</h1>
-    <input id="title"  type="text" placeholder="Enter title">
-    <button onclick="newtitle()">New Title</button>
+    <input id="titleenter"  type="text" placeholder="Enter title">
+    <button id="resultbuttom"
+    onclick="newtitle()">New Title</button>
+
+    <hr><hr>
+
+    <input id="st1" type="text" placeholder="writing section">
+    <input id="st2" type="text" placeholder="writing section">
+    <button id="concabutton" onclick="Concatenate()">Concatenate</button>
+    <p id="combinedText">Concatenate result</p>
+
+    <hr><hr>
+
+    <button id="buttoncolor"> change background</button>
+    <div id ="colorBox"></div>
+   
+
+
 
 
     <script src="lab10.js"></script>
